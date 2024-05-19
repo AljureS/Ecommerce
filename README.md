@@ -1,4 +1,4 @@
-# Ecommerce Backend Application Using NestJS and TypeScript
+# 🛒 Ecommerce Backend Application Using NestJS and TypeScript
 Welcome to the repository of our ecommerce backend application built with the powerful NestJS framework and TypeScript. This application is designed to handle complex ecommerce operations including user authentication, product management, order processing, and image handling.
 
 ## Features ✨
