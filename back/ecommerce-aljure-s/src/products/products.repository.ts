@@ -138,7 +138,7 @@ export class ProductsRepository {
 
         await this.productsRepository.save(newProduct)
         return newProduct
-    }
+    } 
 
     async preLoadData(/*product: Omit<Product, 'id'>*/) { //! se esta precargando la info, por eso no recibe
         // Verificar si existe esa categoria 

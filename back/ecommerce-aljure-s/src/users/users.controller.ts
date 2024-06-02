@@ -8,7 +8,7 @@ import { Role } from './roles.enum';
 import { RolesGuard } from 'src/auth/guard/roles.guard';
 import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
 
-@ApiTags('Users')
+@ApiTags('Users') 
 @Controller('users')
 export class UsersController {
     constructor(

@@ -13,7 +13,7 @@ import { Role } from 'src/users/roles.enum';
 export class CloudinaryController {
     constructor(
         private readonly cloudinaryService: CloudinaryService
-    ) {}
+    ) {} 
 
     @ApiBearerAuth()
     @Post('uploadImage/:id')

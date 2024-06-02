@@ -40,7 +40,7 @@ export class ProductsController {
     @Roles(Role.Admin)
     @UseGuards(AuthGuard, RolesGuard)
     preLoadData() {
-        return this.productService.preLoadData()
+        return this.productService.preLoadData() 
     }
     
     @ApiBearerAuth()

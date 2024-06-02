@@ -6,7 +6,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { NotFoundError } from 'rxjs';
 
 @Injectable()
-export class UsersRepository {
+export class UsersRepository { 
     constructor(
         @InjectRepository(Users)
         private readonly usersRepository: Repository<Users>,

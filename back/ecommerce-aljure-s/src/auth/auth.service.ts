@@ -7,7 +7,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Users } from 'src/entities/user.entity';
 import { Repository } from 'typeorm';
 
-@Injectable()
+@Injectable() 
 export class AuthService {
     constructor (
         private readonly userRepository: UsersRepository,
@@ -23,7 +23,7 @@ export class AuthService {
 
     async loginUser(email: string, password: string){ 
         const user = await this.userRepository.getUserByEmail(email)
-        if (!user) { 
+        if (!user) {  
             throw new BadRequestException('Invalid credentials')
         }
         // Comparacion de passwords

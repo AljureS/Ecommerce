@@ -12,9 +12,9 @@ export class AuthController {
     // @Get()
     // getAuth() {
     //     return this.authService.getAuth();
-    // } 
+    // }  
 
-    @Post('signin')
+    @Post('signin') 
     loginUser(@Body() credentials: LoginUserDto) {
         const { email, password } = credentials;
         return this.authService.loginUser(email , password);

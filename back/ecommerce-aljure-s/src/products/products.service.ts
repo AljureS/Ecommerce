@@ -3,7 +3,7 @@ import { ProductsRepository } from './products.repository';
 import { Product } from './interface/IProduct';
 
 @Injectable()
-export class ProductsService {
+export class ProductsService { 
     constructor(
         private readonly productsRepository: ProductsRepository
     ) {}

@@ -9,7 +9,7 @@ import { Users } from 'src/entities/user.entity';
 @Module({
   imports: [TypeOrmModule.forFeature([Users])],
   controllers: [UsersController],
-  providers: [UsersService, UsersRepository]
+  providers: [UsersService, UsersRepository] 
 })
 export class UsersModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
