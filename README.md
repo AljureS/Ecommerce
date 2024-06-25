@@ -30,4 +30,4 @@ Access the Swagger UI by navigating to [http://localhost:3000/api](http://localh
 
 ## Contact Information:
 Email: saidsimon2@gmail.com
-LinkedIn: www.linkedin.com/in/ing-fullstack-said-aljure-8a0b07179
+[LinkedIn](https://www.linkedin.com/in/webdeveloper-saljure/)
